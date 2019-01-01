@@ -36,6 +36,7 @@ const Month = ({ year, monthNumber, monthData }) => (
     <strong>
       {monthsSK[monthNumber - 1]} / {monthsCZ[monthNumber - 1]}
     </strong>
+    <div className="month-number">{monthNumber}</div>
     <table className="month">
       <tbody>
         {Object.keys(monthData).map(dateNumber => {
