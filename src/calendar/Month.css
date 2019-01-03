@@ -50,14 +50,13 @@ table.month td.coords {
 .month-number {
   position: absolute;
   padding: 0;
-  top: 10px;
+  top: 9px;
   right: 1px;
   height: 2em;
   line-height: 2em;
   width: 2em;
-  border-bottom: 1px solid #777;
-  border-left: 1px solid #777;
-  /* border-radius: 1em; */
+  border-bottom: 0.5px solid #999;
+  border-left: 0.5px solid #999;
   border-bottom-left-radius: 5px;
   background-color: white;
   z-index: 10;
