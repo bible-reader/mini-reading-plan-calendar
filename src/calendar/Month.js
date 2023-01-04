@@ -45,7 +45,7 @@ const Month = ({ year, monthNumber, monthData }) => (
           return (
             <tr
               key={dateString}
-              className={date.getUTCDay() === 0 ? "sunday" : ""}
+              className={date.getDay() === 0 ? "sunday" : ""}
             >
               <td className="date">
                 <div>{dateNumber}</div>
