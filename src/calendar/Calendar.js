@@ -8,7 +8,7 @@ import passagesOT from "../data/OT.json";
 
 export default class Calendar extends Component {
   render() {
-    const year = 2023;
+    const year = 2025;
     const nameNT = `${year} - New Testament`;
     const nameOT = `${year} - Old Testament`;
 
