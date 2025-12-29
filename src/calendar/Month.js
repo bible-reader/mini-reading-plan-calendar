@@ -51,7 +51,7 @@ const Month = ({ year, monthNumber, monthData }) => (
                 <div>{dateNumber}</div>
               </td>
               <td className="dayName">
-                <div>{weekdays[date.getUTCDay()]}</div>
+                <div>{weekdays[date.getDay()]}</div>
               </td>
               <td className="book">
                 <div>{monthData[dateNumber].book}</div>
